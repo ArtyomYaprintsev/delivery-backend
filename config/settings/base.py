@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "colorfield",
     # Local apps
     "authentication",
+    "deliveries",
 ]
 
 MIDDLEWARE = [

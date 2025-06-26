@@ -20,10 +20,13 @@ from django.urls import path, include
 from django.conf import settings
 from debug_toolbar.toolbar import debug_toolbar_urls
 
+from deliveries.urls import router as deliveries_router
+
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/auth/", include("authentication.urls")),
+    path("api/deliveries/", include(deliveries_router.urls)),
 ]
 
 if settings.DEBUG:
