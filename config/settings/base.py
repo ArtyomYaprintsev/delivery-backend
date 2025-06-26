@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "rest_framework.authtoken",
     "colorfield",
     # Local apps
+    "authentication",
 ]
 
 MIDDLEWARE = [
