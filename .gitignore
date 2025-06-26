@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+/venv
+
+# Media
+media/
+
+# Static
+static/
+
+# Local files
+*.local
+temp.py
+db.sqlite3
